@@ -1,0 +1,48 @@
+# Security Headers
+<IfModule mod_headers.c>
+    # Content Security Policy - Complete policy to fix CSP issues
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' http://localhost:8080 https://event-spark-self.vercel.app https://event-spark-prod.vercel.app; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none';"
+    
+    # Anti-clickjacking protection - HTTP header
+    Header always set X-Frame-Options "DENY"
+    
+    # Prevent MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+    
+    # Referrer Policy
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Permissions Policy
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()"
+    
+    # Remove X-Powered-By header
+    Header unset X-Powered-By
+    
+    # Additional security headers
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set X-Download-Options "noopen"
+    Header always set X-Permitted-Cross-Domain-Policies "none"
+</IfModule>
+
+# Security Settings
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Prevent access to sensitive files
+    RewriteRule ^\.env - [F,L]
+    RewriteRule ^\.git - [F,L]
+    RewriteRule ^package\.json - [F,L]
+    RewriteRule ^package-lock\.json - [F,L]
+    RewriteRule ^README\.md - [F,L]
+    
+    # Handle React Router
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
+
+# File upload limits
+<IfModule mod_php.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+</IfModule> 

@@ -1,0 +1,40 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+scrape_configs:
+  # Prometheus itself
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # Node Exporter for system metrics
+  - job_name: "node-exporter"
+    static_configs:
+      - targets: ["node-exporter:9100"]
+
+  # EventSpark Backend API
+  - job_name: "eventspark-backend"
+    static_configs:
+      - targets: ["host.docker.internal:8080"]
+    metrics_path: "/api/metrics"
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # EventSpark Frontend (commented out - no metrics endpoint yet)
+  # - job_name: "eventspark-frontend"
+  #   static_configs:
+  #     - targets: ["host.docker.internal:3000"]
+  #   metrics_path: "/metrics"
+  #   scrape_interval: 10s
+  #   scrape_timeout: 5s
+
+  # MongoDB (if you want to monitor database)
+  - job_name: "mongodb"
+    static_configs:
+      - targets: ["host.docker.internal:27017"]
+    scrape_interval: 30s
