@@ -1,0 +1,351 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1752962278861,439,Login Request,200,OK,Moderate Load Test 1-1,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,439,0,2
+1752962279301,319,Get All Events,200,OK,Moderate Load Test 1-1,text,true,,2825,392,1,1,http://localhost:8080/api/events,319,0,0
+1752962279620,101,Get User Info,200,OK,Moderate Load Test 1-1,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,101,0,0
+1752962279722,297,Get My Bookings,200,OK,Moderate Load Test 1-1,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,297,0,0
+1752962280061,385,Login Request,200,OK,Moderate Load Test 1-2,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,385,0,1
+1752962280019,446,Get Event Details By ID,200,OK,Moderate Load Test 1-1,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,446,0,0
+1752962280446,289,Get All Events,200,OK,Moderate Load Test 1-2,text,true,,2825,392,2,2,http://localhost:8080/api/events,289,0,0
+1752962280465,290,Get Seat Map By ID,200,OK,Moderate Load Test 1-1,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,290,0,0
+1752962280736,100,Get User Info,200,OK,Moderate Load Test 1-2,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,100,0,0
+1752962280755,201,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-1,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,201,0,0
+1752962280836,295,Get My Bookings,200,OK,Moderate Load Test 1-2,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,295,0,0
+1752962281131,431,Get Event Details By ID,200,OK,Moderate Load Test 1-2,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,431,0,0
+1752962281263,403,Login Request,200,OK,Moderate Load Test 1-3,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,403,0,0
+1752962281562,389,Get Seat Map By ID,200,OK,Moderate Load Test 1-2,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,388,0,0
+1752962281666,288,Get All Events,200,OK,Moderate Load Test 1-3,text,true,,2825,392,2,2,http://localhost:8080/api/events,288,0,0
+1752962281954,107,Get User Info,200,OK,Moderate Load Test 1-3,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,107,0,0
+1752962281951,204,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-2,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,204,0,0
+1752962282062,287,Get My Bookings,200,OK,Moderate Load Test 1-3,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962282349,415,Get Event Details By ID,200,OK,Moderate Load Test 1-3,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,415,0,0
+1752962282461,420,Login Request,200,OK,Moderate Load Test 1-4,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,420,0,2
+1752962282764,390,Get Seat Map By ID,200,OK,Moderate Load Test 1-3,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,390,0,0
+1752962282881,284,Get All Events,200,OK,Moderate Load Test 1-4,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962283165,95,Get User Info,200,OK,Moderate Load Test 1-4,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,95,0,0
+1752962283154,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-3,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962283260,289,Get My Bookings,200,OK,Moderate Load Test 1-4,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,289,0,0
+1752962283550,409,Get Event Details By ID,200,OK,Moderate Load Test 1-4,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,409,0,0
+1752962283661,394,Login Request,200,OK,Moderate Load Test 1-5,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,394,0,1
+1752962284056,283,Get All Events,200,OK,Moderate Load Test 1-5,text,true,,2825,392,2,2,http://localhost:8080/api/events,283,0,0
+1752962283959,381,Get Seat Map By ID,200,OK,Moderate Load Test 1-4,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,381,0,0
+1752962284339,100,Get User Info,200,OK,Moderate Load Test 1-5,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,100,0,0
+1752962284341,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-4,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962284439,285,Get My Bookings,200,OK,Moderate Load Test 1-5,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,285,0,0
+1752962284724,451,Get Event Details By ID,200,OK,Moderate Load Test 1-5,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,451,0,0
+1752962284868,395,Login Request,200,OK,Moderate Load Test 1-6,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,395,0,2
+1752962285263,284,Get All Events,200,OK,Moderate Load Test 1-6,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962285175,375,Get Seat Map By ID,200,OK,Moderate Load Test 1-5,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,375,0,0
+1752962285547,105,Get User Info,200,OK,Moderate Load Test 1-6,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,105,0,0
+1752962285550,196,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-5,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,195,0,0
+1752962285652,295,Get My Bookings,200,OK,Moderate Load Test 1-6,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,295,0,0
+1752962285947,416,Get Event Details By ID,200,OK,Moderate Load Test 1-6,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,416,0,0
+1752962286061,400,Login Request,200,OK,Moderate Load Test 1-7,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,400,0,1
+1752962286461,286,Get All Events,200,OK,Moderate Load Test 1-7,text,true,,2825,392,2,2,http://localhost:8080/api/events,286,0,0
+1752962286364,384,Get Seat Map By ID,200,OK,Moderate Load Test 1-6,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,384,0,0
+1752962286747,102,Get User Info,200,OK,Moderate Load Test 1-7,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,102,0,0
+1752962286749,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-6,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962286849,288,Get My Bookings,200,OK,Moderate Load Test 1-7,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,288,0,0
+1752962287137,425,Get Event Details By ID,200,OK,Moderate Load Test 1-7,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,425,0,0
+1752962287260,436,Login Request,200,OK,Moderate Load Test 1-8,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,435,0,0
+1752962287562,388,Get Seat Map By ID,200,OK,Moderate Load Test 1-7,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,388,0,0
+1752962287696,288,Get All Events,200,OK,Moderate Load Test 1-8,text,true,,2825,392,2,2,http://localhost:8080/api/events,288,0,0
+1752962287984,98,Get User Info,200,OK,Moderate Load Test 1-8,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,98,0,0
+1752962287951,194,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-7,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,194,0,0
+1752962288082,291,Get My Bookings,200,OK,Moderate Load Test 1-8,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,291,0,0
+1752962288374,491,Get Event Details By ID,200,OK,Moderate Load Test 1-8,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,491,0,0
+1752962288462,422,Login Request,200,OK,Moderate Load Test 1-9,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,422,0,2
+1752962288884,285,Get All Events,200,OK,Moderate Load Test 1-9,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962288865,306,Get Seat Map By ID,200,OK,Moderate Load Test 1-8,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,306,0,0
+1752962289169,101,Get User Info,200,OK,Moderate Load Test 1-9,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,101,0,0
+1752962289172,196,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-8,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,196,0,0
+1752962289271,293,Get My Bookings,200,OK,Moderate Load Test 1-9,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,293,0,0
+1752962289565,401,Get Event Details By ID,200,OK,Moderate Load Test 1-9,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,401,0,0
+1752962289660,439,Login Request,200,OK,Moderate Load Test 1-10,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,439,0,1
+1752962289965,386,Get Seat Map By ID,200,OK,Moderate Load Test 1-9,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,386,0,0
+1752962290099,281,Get All Events,200,OK,Moderate Load Test 1-10,text,true,,2825,392,2,2,http://localhost:8080/api/events,281,0,0
+1752962290380,98,Get User Info,200,OK,Moderate Load Test 1-10,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,98,0,0
+1752962290352,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-9,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962290478,284,Get My Bookings,200,OK,Moderate Load Test 1-10,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,284,0,0
+1752962290762,399,Get Event Details By ID,200,OK,Moderate Load Test 1-10,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,399,0,0
+1752962290861,376,Login Request,200,OK,Moderate Load Test 1-11,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,376,0,1
+1752962291161,361,Get Seat Map By ID,200,OK,Moderate Load Test 1-10,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,361,0,0
+1752962291238,287,Get All Events,200,OK,Moderate Load Test 1-11,text,true,,2825,392,2,2,http://localhost:8080/api/events,287,0,0
+1752962291525,103,Get User Info,200,OK,Moderate Load Test 1-11,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,103,0,0
+1752962291522,199,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-10,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,199,0,0
+1752962291628,289,Get My Bookings,200,OK,Moderate Load Test 1-11,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,289,0,0
+1752962291917,444,Get Event Details By ID,200,OK,Moderate Load Test 1-11,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,444,0,0
+1752962292059,378,Login Request,200,OK,Moderate Load Test 1-12,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,378,0,1
+1752962292362,360,Get Seat Map By ID,200,OK,Moderate Load Test 1-11,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,360,0,0
+1752962292437,288,Get All Events,200,OK,Moderate Load Test 1-12,text,true,,2825,392,2,2,http://localhost:8080/api/events,288,0,0
+1752962292725,101,Get User Info,200,OK,Moderate Load Test 1-12,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,101,0,0
+1752962292723,195,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-11,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,195,0,0
+1752962292826,284,Get My Bookings,200,OK,Moderate Load Test 1-12,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,284,0,0
+1752962293111,450,Get Event Details By ID,200,OK,Moderate Load Test 1-12,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,450,0,0
+1752962293260,357,Login Request,200,OK,Moderate Load Test 1-13,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,357,0,1
+1752962293617,285,Get All Events,200,OK,Moderate Load Test 1-13,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962293561,342,Get Seat Map By ID,200,OK,Moderate Load Test 1-12,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,342,0,0
+1752962293902,105,Get User Info,200,OK,Moderate Load Test 1-13,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,105,0,0
+1752962293903,197,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-12,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,197,0,0
+1752962294007,290,Get My Bookings,200,OK,Moderate Load Test 1-13,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962294297,464,Get Event Details By ID,200,OK,Moderate Load Test 1-13,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,464,0,0
+1752962294460,382,Login Request,200,OK,Moderate Load Test 1-14,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,382,0,1
+1752962294762,363,Get Seat Map By ID,200,OK,Moderate Load Test 1-13,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,363,0,0
+1752962294843,283,Get All Events,200,OK,Moderate Load Test 1-14,text,true,,2825,392,2,2,http://localhost:8080/api/events,283,0,0
+1752962295126,100,Get User Info,200,OK,Moderate Load Test 1-14,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,100,0,0
+1752962295125,194,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-13,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,194,0,0
+1752962295226,290,Get My Bookings,200,OK,Moderate Load Test 1-14,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962295516,442,Get Event Details By ID,200,OK,Moderate Load Test 1-14,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,442,0,0
+1752962295660,397,Login Request,200,OK,Moderate Load Test 1-15,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,397,0,1
+1752962295958,385,Get Seat Map By ID,200,OK,Moderate Load Test 1-14,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,385,0,0
+1752962296057,289,Get All Events,200,OK,Moderate Load Test 1-15,text,true,,2825,392,2,2,http://localhost:8080/api/events,289,0,0
+1752962296346,103,Get User Info,200,OK,Moderate Load Test 1-15,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,103,0,0
+1752962296344,198,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-14,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,198,0,0
+1752962296450,286,Get My Bookings,200,OK,Moderate Load Test 1-15,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,285,0,0
+1752962296736,432,Get Event Details By ID,200,OK,Moderate Load Test 1-15,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,431,0,0
+1752962296866,391,Login Request,200,OK,Moderate Load Test 1-16,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,390,0,1
+1752962297257,286,Get All Events,200,OK,Moderate Load Test 1-16,text,true,,2825,392,2,2,http://localhost:8080/api/events,286,0,0
+1752962297168,379,Get Seat Map By ID,200,OK,Moderate Load Test 1-15,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,379,0,0
+1752962297543,108,Get User Info,200,OK,Moderate Load Test 1-16,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,108,0,0
+1752962297548,194,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-15,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,194,0,0
+1752962297652,287,Get My Bookings,200,OK,Moderate Load Test 1-16,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962297940,422,Get Event Details By ID,200,OK,Moderate Load Test 1-16,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,422,0,0
+1752962298062,386,Login Request,200,OK,Moderate Load Test 1-17,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,386,0,2
+1752962298448,285,Get All Events,200,OK,Moderate Load Test 1-17,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962298362,373,Get Seat Map By ID,200,OK,Moderate Load Test 1-16,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,373,0,0
+1752962298733,97,Get User Info,200,OK,Moderate Load Test 1-17,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,97,0,0
+1752962298735,195,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-16,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,195,0,0
+1752962298831,292,Get My Bookings,200,OK,Moderate Load Test 1-17,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,292,0,0
+1752962299123,442,Get Event Details By ID,200,OK,Moderate Load Test 1-17,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,442,0,0
+1752962299261,401,Login Request,200,OK,Moderate Load Test 1-18,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,401,0,2
+1752962299565,381,Get Seat Map By ID,200,OK,Moderate Load Test 1-17,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,381,0,0
+1752962299662,284,Get All Events,200,OK,Moderate Load Test 1-18,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962299946,96,Get User Info,200,OK,Moderate Load Test 1-18,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,96,0,0
+1752962299945,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-17,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962300043,290,Get My Bookings,200,OK,Moderate Load Test 1-18,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962300334,427,Get Event Details By ID,200,OK,Moderate Load Test 1-18,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,427,0,0
+1752962300460,416,Login Request,200,OK,Moderate Load Test 1-19,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,416,0,1
+1752962300761,395,Get Seat Map By ID,200,OK,Moderate Load Test 1-18,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,395,0,0
+1752962300876,284,Get All Events,200,OK,Moderate Load Test 1-19,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962301160,102,Get User Info,200,OK,Moderate Load Test 1-19,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,102,0,0
+1752962301157,202,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-18,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,202,0,0
+1752962301262,285,Get My Bookings,200,OK,Moderate Load Test 1-19,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,285,0,0
+1752962301548,411,Get Event Details By ID,200,OK,Moderate Load Test 1-19,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,411,0,0
+1752962301659,417,Login Request,200,OK,Moderate Load Test 1-20,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,417,0,1
+1752962301960,391,Get Seat Map By ID,200,OK,Moderate Load Test 1-19,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,391,0,0
+1752962302076,278,Get All Events,200,OK,Moderate Load Test 1-20,text,true,,2825,392,2,2,http://localhost:8080/api/events,278,0,0
+1752962302354,102,Get User Info,200,OK,Moderate Load Test 1-20,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,102,0,0
+1752962302352,193,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-19,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,193,0,0
+1752962302456,287,Get My Bookings,200,OK,Moderate Load Test 1-20,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962302743,418,Get Event Details By ID,200,OK,Moderate Load Test 1-20,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,418,0,0
+1752962302860,378,Login Request,200,OK,Moderate Load Test 1-21,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,378,0,2
+1752962303239,290,Get All Events,200,OK,Moderate Load Test 1-21,text,true,,2825,392,2,2,http://localhost:8080/api/events,290,0,0
+1752962303161,371,Get Seat Map By ID,200,OK,Moderate Load Test 1-20,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,371,0,0
+1752962303530,103,Get User Info,200,OK,Moderate Load Test 1-21,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,103,0,0
+1752962303532,193,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-20,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,193,0,0
+1752962303633,289,Get My Bookings,200,OK,Moderate Load Test 1-21,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,289,0,0
+1752962303922,441,Get Event Details By ID,200,OK,Moderate Load Test 1-21,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,441,0,0
+1752962304060,387,Login Request,200,OK,Moderate Load Test 1-22,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,387,0,2
+1752962304448,283,Get All Events,200,OK,Moderate Load Test 1-22,text,true,,2825,392,2,2,http://localhost:8080/api/events,283,0,0
+1752962304364,369,Get Seat Map By ID,200,OK,Moderate Load Test 1-21,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,369,0,0
+1752962304732,100,Get User Info,200,OK,Moderate Load Test 1-22,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,100,0,0
+1752962304734,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-21,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962304833,282,Get My Bookings,200,OK,Moderate Load Test 1-22,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,282,0,0
+1752962305116,447,Get Event Details By ID,200,OK,Moderate Load Test 1-22,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,447,0,0
+1752962305260,427,Login Request,200,OK,Moderate Load Test 1-23,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,427,0,1
+1752962305563,394,Get Seat Map By ID,200,OK,Moderate Load Test 1-22,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,394,0,0
+1752962305687,290,Get All Events,200,OK,Moderate Load Test 1-23,text,true,,2825,392,2,2,http://localhost:8080/api/events,290,0,0
+1752962305977,100,Get User Info,200,OK,Moderate Load Test 1-23,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,100,0,0
+1752962305957,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-22,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962306077,288,Get My Bookings,200,OK,Moderate Load Test 1-23,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,288,0,0
+1752962306366,399,Get Event Details By ID,200,OK,Moderate Load Test 1-23,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,399,0,0
+1752962306462,388,Login Request,200,OK,Moderate Load Test 1-24,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,388,0,1
+1752962306766,363,Get Seat Map By ID,200,OK,Moderate Load Test 1-23,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,363,0,0
+1752962306850,280,Get All Events,200,OK,Moderate Load Test 1-24,text,true,,2825,392,2,2,http://localhost:8080/api/events,280,0,0
+1752962307130,98,Get User Info,200,OK,Moderate Load Test 1-24,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,98,0,0
+1752962307129,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-23,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962307228,290,Get My Bookings,200,OK,Moderate Load Test 1-24,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962307518,450,Get Event Details By ID,200,OK,Moderate Load Test 1-24,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,450,0,0
+1752962307662,415,Login Request,200,OK,Moderate Load Test 1-25,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,415,0,2
+1752962307968,388,Get Seat Map By ID,200,OK,Moderate Load Test 1-24,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,388,0,0
+1752962308077,284,Get All Events,200,OK,Moderate Load Test 1-25,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962308361,94,Get User Info,200,OK,Moderate Load Test 1-25,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,94,0,0
+1752962308357,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-24,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962308455,289,Get My Bookings,200,OK,Moderate Load Test 1-25,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,288,0,0
+1752962308744,414,Get Event Details By ID,200,OK,Moderate Load Test 1-25,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,414,0,0
+1752962308860,433,Login Request,200,OK,Moderate Load Test 1-26,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,433,0,1
+1752962309158,391,Get Seat Map By ID,200,OK,Moderate Load Test 1-25,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,390,0,0
+1752962309293,290,Get All Events,200,OK,Moderate Load Test 1-26,text,true,,2825,392,2,2,http://localhost:8080/api/events,289,0,0
+1752962309583,101,Get User Info,200,OK,Moderate Load Test 1-26,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,101,0,0
+1752962309549,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-25,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962309684,286,Get My Bookings,200,OK,Moderate Load Test 1-26,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,286,0,0
+1752962309971,390,Get Event Details By ID,200,OK,Moderate Load Test 1-26,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,390,0,0
+1752962310061,420,Login Request,200,OK,Moderate Load Test 1-27,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,420,0,1
+1752962310361,390,Get Seat Map By ID,200,OK,Moderate Load Test 1-26,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,390,0,0
+1752962310481,284,Get All Events,200,OK,Moderate Load Test 1-27,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962310765,96,Get User Info,200,OK,Moderate Load Test 1-27,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,96,0,0
+1752962310751,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-26,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962310861,282,Get My Bookings,200,OK,Moderate Load Test 1-27,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,282,0,0
+1752962311143,426,Get Event Details By ID,200,OK,Moderate Load Test 1-27,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,426,0,0
+1752962311264,413,Login Request,200,OK,Moderate Load Test 1-28,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,413,0,2
+1752962311570,389,Get Seat Map By ID,200,OK,Moderate Load Test 1-27,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,389,0,0
+1752962311677,285,Get All Events,200,OK,Moderate Load Test 1-28,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962311962,96,Get User Info,200,OK,Moderate Load Test 1-28,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,96,0,0
+1752962311960,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-27,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962312058,282,Get My Bookings,200,OK,Moderate Load Test 1-28,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,282,0,0
+1752962312341,421,Get Event Details By ID,200,OK,Moderate Load Test 1-28,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,421,0,0
+1752962312461,328,Login Request,200,OK,Moderate Load Test 1-29,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,328,0,2
+1752962312789,278,Get All Events,200,OK,Moderate Load Test 1-29,text,true,,2825,392,2,2,http://localhost:8080/api/events,278,0,0
+1752962312762,307,Get Seat Map By ID,200,OK,Moderate Load Test 1-28,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,307,0,0
+1752962313068,95,Get User Info,200,OK,Moderate Load Test 1-29,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,95,0,0
+1752962313069,187,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-28,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,187,0,0
+1752962313163,280,Get My Bookings,200,OK,Moderate Load Test 1-29,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,280,0,0
+1752962313443,281,Get Event Details By ID,200,OK,Moderate Load Test 1-29,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,281,0,0
+1752962313663,326,Login Request,200,OK,Moderate Load Test 1-30,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,326,0,1
+1752962313724,432,Get Seat Map By ID,200,OK,Moderate Load Test 1-29,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,432,0,0
+1752962313989,278,Get All Events,200,OK,Moderate Load Test 1-30,text,true,,2825,392,2,2,http://localhost:8080/api/events,278,0,0
+1752962314157,188,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-29,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,188,0,0
+1752962314268,94,Get User Info,200,OK,Moderate Load Test 1-30,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,94,0,0
+1752962314362,298,Get My Bookings,200,OK,Moderate Load Test 1-30,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,298,0,0
+1752962314659,291,Get Event Details By ID,200,OK,Moderate Load Test 1-30,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,291,0,0
+1752962314861,332,Login Request,200,OK,Moderate Load Test 1-31,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,332,0,1
+1752962314951,400,Get Seat Map By ID,200,OK,Moderate Load Test 1-30,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,400,0,0
+1752962315193,284,Get All Events,200,OK,Moderate Load Test 1-31,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962315351,186,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-30,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,186,0,0
+1752962315478,102,Get User Info,200,OK,Moderate Load Test 1-31,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,102,0,0
+1752962315580,282,Get My Bookings,200,OK,Moderate Load Test 1-31,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,282,0,0
+1752962315862,284,Get Event Details By ID,200,OK,Moderate Load Test 1-31,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,284,0,0
+1752962316061,366,Login Request,200,OK,Moderate Load Test 1-32,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,366,0,2
+1752962316147,428,Get Seat Map By ID,200,OK,Moderate Load Test 1-31,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,428,0,0
+1752962316428,286,Get All Events,200,OK,Moderate Load Test 1-32,text,true,,2825,392,2,2,http://localhost:8080/api/events,286,0,0
+1752962316575,189,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-31,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,189,0,0
+1752962316715,97,Get User Info,200,OK,Moderate Load Test 1-32,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752962316812,298,Get My Bookings,200,OK,Moderate Load Test 1-32,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,298,0,0
+1752962317111,457,Get Event Details By ID,200,OK,Moderate Load Test 1-32,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,457,0,0
+1752962317269,335,Login Request,200,OK,Moderate Load Test 1-33,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,335,0,1
+1752962317568,318,Get Seat Map By ID,200,OK,Moderate Load Test 1-32,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,318,0,0
+1752962317605,284,Get All Events,200,OK,Moderate Load Test 1-33,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962317889,98,Get User Info,200,OK,Moderate Load Test 1-33,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,98,0,0
+1752962317886,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-32,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962317987,284,Get My Bookings,200,OK,Moderate Load Test 1-33,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,284,0,0
+1752962318271,388,Get Event Details By ID,200,OK,Moderate Load Test 1-33,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,388,0,0
+1752962318460,329,Login Request,200,OK,Moderate Load Test 1-34,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,329,0,2
+1752962318659,384,Get Seat Map By ID,200,OK,Moderate Load Test 1-33,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,384,0,0
+1752962318790,289,Get All Events,200,OK,Moderate Load Test 1-34,text,true,,2825,392,2,2,http://localhost:8080/api/events,289,0,0
+1752962319080,95,Get User Info,200,OK,Moderate Load Test 1-34,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,95,0,0
+1752962319044,188,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-33,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,188,0,0
+1752962319175,283,Get My Bookings,200,OK,Moderate Load Test 1-34,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,283,0,0
+1752962319459,289,Get Event Details By ID,200,OK,Moderate Load Test 1-34,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,289,0,0
+1752962319661,334,Login Request,200,OK,Moderate Load Test 1-35,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,334,0,1
+1752962319750,397,Get Seat Map By ID,200,OK,Moderate Load Test 1-34,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,397,0,0
+1752962319995,284,Get All Events,200,OK,Moderate Load Test 1-35,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962320147,186,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-34,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,186,0,0
+1752962320279,96,Get User Info,200,OK,Moderate Load Test 1-35,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,96,0,0
+1752962320375,286,Get My Bookings,200,OK,Moderate Load Test 1-35,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,286,0,0
+1752962320661,289,Get Event Details By ID,200,OK,Moderate Load Test 1-35,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,289,0,0
+1752962320862,331,Login Request,200,OK,Moderate Load Test 1-36,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,331,0,2
+1752962320951,401,Get Seat Map By ID,200,OK,Moderate Load Test 1-35,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,401,0,0
+1752962321193,287,Get All Events,200,OK,Moderate Load Test 1-36,text,true,,2825,392,2,2,http://localhost:8080/api/events,287,0,0
+1752962321352,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-35,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962321480,97,Get User Info,200,OK,Moderate Load Test 1-36,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752962321578,285,Get My Bookings,200,OK,Moderate Load Test 1-36,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,285,0,0
+1752962321863,282,Get Event Details By ID,200,OK,Moderate Load Test 1-36,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,282,0,0
+1752962322062,327,Login Request,200,OK,Moderate Load Test 1-37,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,327,0,1
+1752962322146,401,Get Seat Map By ID,200,OK,Moderate Load Test 1-36,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,401,0,0
+1752962322390,285,Get All Events,200,OK,Moderate Load Test 1-37,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962322548,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-36,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962322676,98,Get User Info,200,OK,Moderate Load Test 1-37,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752962322774,287,Get My Bookings,200,OK,Moderate Load Test 1-37,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962323061,288,Get Event Details By ID,200,OK,Moderate Load Test 1-37,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,288,0,0
+1752962323262,327,Login Request,200,OK,Moderate Load Test 1-38,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,327,0,2
+1752962323350,399,Get Seat Map By ID,200,OK,Moderate Load Test 1-37,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,399,0,0
+1752962323590,298,Get All Events,200,OK,Moderate Load Test 1-38,text,true,,2825,392,2,2,http://localhost:8080/api/events,298,0,0
+1752962323749,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-37,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962323888,98,Get User Info,200,OK,Moderate Load Test 1-38,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752962323987,281,Get My Bookings,200,OK,Moderate Load Test 1-38,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,281,0,0
+1752962324268,290,Get Event Details By ID,200,OK,Moderate Load Test 1-38,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,290,0,0
+1752962324461,336,Login Request,200,OK,Moderate Load Test 1-39,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,336,0,2
+1752962324558,393,Get Seat Map By ID,200,OK,Moderate Load Test 1-38,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,393,0,0
+1752962324797,291,Get All Events,200,OK,Moderate Load Test 1-39,text,true,,2825,392,2,2,http://localhost:8080/api/events,291,0,0
+1752962324951,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-38,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962325089,98,Get User Info,200,OK,Moderate Load Test 1-39,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752962325187,287,Get My Bookings,200,OK,Moderate Load Test 1-39,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962325475,484,Get Event Details By ID,200,OK,Moderate Load Test 1-39,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,484,0,0
+1752962325661,327,Login Request,200,OK,Moderate Load Test 1-40,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,327,0,2
+1752962325959,306,Get Seat Map By ID,200,OK,Moderate Load Test 1-39,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,306,0,0
+1752962325989,279,Get All Events,200,OK,Moderate Load Test 1-40,text,true,,2825,392,2,2,http://localhost:8080/api/events,279,0,0
+1752962326268,95,Get User Info,200,OK,Moderate Load Test 1-40,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,94,0,0
+1752962326265,192,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-39,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752962326363,281,Get My Bookings,200,OK,Moderate Load Test 1-40,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,281,0,0
+1752962326644,286,Get Event Details By ID,200,OK,Moderate Load Test 1-40,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,286,0,0
+1752962326861,332,Login Request,200,OK,Moderate Load Test 1-41,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,332,0,1
+1752962326931,418,Get Seat Map By ID,200,OK,Moderate Load Test 1-40,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,418,0,0
+1752962327193,285,Get All Events,200,OK,Moderate Load Test 1-41,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962327350,193,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-40,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,193,0,0
+1752962327478,99,Get User Info,200,OK,Moderate Load Test 1-41,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752962327577,290,Get My Bookings,200,OK,Moderate Load Test 1-41,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962327867,390,Get Event Details By ID,200,OK,Moderate Load Test 1-41,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,390,0,0
+1752962328062,325,Login Request,200,OK,Moderate Load Test 1-42,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,325,0,1
+1752962328257,391,Get Seat Map By ID,200,OK,Moderate Load Test 1-41,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,391,0,0
+1752962328387,285,Get All Events,200,OK,Moderate Load Test 1-42,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962328672,93,Get User Info,200,OK,Moderate Load Test 1-42,text,true,,1210,393,2,2,http://localhost:8080/api/auth/me,93,0,0
+1752962328648,188,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-41,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,188,0,0
+1752962328765,287,Get My Bookings,200,OK,Moderate Load Test 1-42,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962329052,283,Get Event Details By ID,200,OK,Moderate Load Test 1-42,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,283,0,0
+1752962329262,324,Login Request,200,OK,Moderate Load Test 1-43,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,324,0,2
+1752962329336,412,Get Seat Map By ID,200,OK,Moderate Load Test 1-42,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,412,0,0
+1752962329586,286,Get All Events,200,OK,Moderate Load Test 1-43,text,true,,2825,392,2,2,http://localhost:8080/api/events,286,0,0
+1752962329747,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-42,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962329871,95,Get User Info,200,OK,Moderate Load Test 1-43,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,95,0,0
+1752962329966,287,Get My Bookings,200,OK,Moderate Load Test 1-43,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,287,0,0
+1752962330253,290,Get Event Details By ID,200,OK,Moderate Load Test 1-43,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,290,0,0
+1752962330469,329,Login Request,200,OK,Moderate Load Test 1-44,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,329,0,1
+1752962330544,416,Get Seat Map By ID,200,OK,Moderate Load Test 1-43,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,416,0,0
+1752962330798,283,Get All Events,200,OK,Moderate Load Test 1-44,text,true,,2825,392,2,2,http://localhost:8080/api/events,283,0,0
+1752962330960,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-43,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962331081,99,Get User Info,200,OK,Moderate Load Test 1-44,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,99,0,0
+1752962331181,283,Get My Bookings,200,OK,Moderate Load Test 1-44,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,283,0,0
+1752962331464,287,Get Event Details By ID,200,OK,Moderate Load Test 1-44,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,287,0,0
+1752962331660,333,Login Request,200,OK,Moderate Load Test 1-45,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,333,0,2
+1752962331751,399,Get Seat Map By ID,200,OK,Moderate Load Test 1-44,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,399,0,0
+1752962331993,284,Get All Events,200,OK,Moderate Load Test 1-45,text,true,,2825,392,2,2,http://localhost:8080/api/events,284,0,0
+1752962332150,191,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-44,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752962332277,97,Get User Info,200,OK,Moderate Load Test 1-45,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752962332374,284,Get My Bookings,200,OK,Moderate Load Test 1-45,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,284,0,0
+1752962332658,286,Get Event Details By ID,200,OK,Moderate Load Test 1-45,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,286,0,0
+1752962332860,334,Login Request,200,OK,Moderate Load Test 1-46,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,334,0,1
+1752962332944,406,Get Seat Map By ID,200,OK,Moderate Load Test 1-45,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,406,0,0
+1752962333194,282,Get All Events,200,OK,Moderate Load Test 1-46,text,true,,2825,392,2,2,http://localhost:8080/api/events,282,0,0
+1752962333350,195,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-45,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,195,0,0
+1752962333476,98,Get User Info,200,OK,Moderate Load Test 1-46,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752962333575,285,Get My Bookings,200,OK,Moderate Load Test 1-46,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,285,0,0
+1752962333860,290,Get Event Details By ID,200,OK,Moderate Load Test 1-46,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,290,0,0
+1752962334060,328,Login Request,200,OK,Moderate Load Test 1-47,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,328,0,2
+1752962334150,392,Get Seat Map By ID,200,OK,Moderate Load Test 1-46,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,392,0,0
+1752962334388,287,Get All Events,200,OK,Moderate Load Test 1-47,text,true,,2825,392,2,2,http://localhost:8080/api/events,287,0,0
+1752962334543,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-46,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962334676,95,Get User Info,200,OK,Moderate Load Test 1-47,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,95,0,0
+1752962334771,290,Get My Bookings,200,OK,Moderate Load Test 1-47,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962335061,285,Get Event Details By ID,200,OK,Moderate Load Test 1-47,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,285,0,0
+1752962335261,330,Login Request,200,OK,Moderate Load Test 1-48,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,330,0,1
+1752962335346,403,Get Seat Map By ID,200,OK,Moderate Load Test 1-47,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,403,0,0
+1752962335592,285,Get All Events,200,OK,Moderate Load Test 1-48,text,true,,2825,392,2,2,http://localhost:8080/api/events,285,0,0
+1752962335749,189,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-47,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,189,0,0
+1752962335877,97,Get User Info,200,OK,Moderate Load Test 1-48,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752962335975,286,Get My Bookings,200,OK,Moderate Load Test 1-48,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,286,0,0
+1752962336262,287,Get Event Details By ID,200,OK,Moderate Load Test 1-48,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,287,0,0
+1752962336463,322,Login Request,200,OK,Moderate Load Test 1-49,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,322,0,2
+1752962336549,403,Get Seat Map By ID,200,OK,Moderate Load Test 1-48,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,403,0,0
+1752962336785,279,Get All Events,200,OK,Moderate Load Test 1-49,text,true,,2825,392,2,2,http://localhost:8080/api/events,279,0,0
+1752962336953,188,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-48,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,188,0,0
+1752962337064,92,Get User Info,200,OK,Moderate Load Test 1-49,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,92,0,0
+1752962337156,284,Get My Bookings,200,OK,Moderate Load Test 1-49,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,284,0,0
+1752962337441,293,Get Event Details By ID,200,OK,Moderate Load Test 1-49,text,true,,1899,417,2,2,http://localhost:8080/api/events/68742e8626a419aac9543576,293,0,0
+1752962337662,330,Login Request,200,OK,Moderate Load Test 1-50,text,true,,1428,242,2,2,http://localhost:8080/api/auth/signin,330,0,2
+1752962337734,426,Get Seat Map By ID,200,OK,Moderate Load Test 1-49,text,true,,3862,431,2,2,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,426,0,0
+1752962337992,276,Get All Events,200,OK,Moderate Load Test 1-50,text,true,,2825,392,2,2,http://localhost:8080/api/events,276,0,0
+1752962338160,190,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-49,text,true,,3026,427,2,2,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,190,0,0
+1752962338268,95,Get User Info,200,OK,Moderate Load Test 1-50,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,95,0,0
+1752962338364,290,Get My Bookings,200,OK,Moderate Load Test 1-50,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,290,0,0
+1752962338654,290,Get Event Details By ID,200,OK,Moderate Load Test 1-50,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,290,0,0
+1752962338944,291,Get Seat Map By ID,200,OK,Moderate Load Test 1-50,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,291,0,0
+1752962339235,194,Get All Events Of A Organizer By Organization ID,200,OK,Moderate Load Test 1-50,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,194,0,0

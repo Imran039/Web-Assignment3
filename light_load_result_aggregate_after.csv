@@ -1,0 +1,71 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1752960976878,370,Login Request,200,OK,Light Load Test 1-1,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,370,0,1
+1752960977248,98,Get All Events,200,OK,Light Load Test 1-1,text,true,,2825,392,1,1,http://localhost:8080/api/events,98,0,0
+1752960977347,96,Get User Info,200,OK,Light Load Test 1-1,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,96,0,0
+1752960977443,102,Get My Bookings,200,OK,Light Load Test 1-1,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,102,0,0
+1752960977546,295,Get Event Details By ID,200,OK,Light Load Test 1-1,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,295,0,0
+1752960977841,298,Get Seat Map By ID,200,OK,Light Load Test 1-1,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,298,0,0
+1752960978140,199,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-1,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,199,0,0
+1752960979878,348,Login Request,200,OK,Light Load Test 1-2,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,348,0,2
+1752960980227,98,Get All Events,200,OK,Light Load Test 1-2,text,true,,2825,392,1,1,http://localhost:8080/api/events,98,0,0
+1752960980325,102,Get User Info,200,OK,Light Load Test 1-2,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,102,0,0
+1752960980428,102,Get My Bookings,200,OK,Light Load Test 1-2,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,102,0,0
+1752960980530,100,Get Event Details By ID,200,OK,Light Load Test 1-2,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,100,0,0
+1752960980631,97,Get Seat Map By ID,200,OK,Light Load Test 1-2,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,97,0,0
+1752960980729,198,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-2,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,198,0,0
+1752960982890,353,Login Request,200,OK,Light Load Test 1-3,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,353,0,1
+1752960983243,97,Get All Events,200,OK,Light Load Test 1-3,text,true,,2825,392,1,1,http://localhost:8080/api/events,97,0,0
+1752960983340,101,Get User Info,200,OK,Light Load Test 1-3,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,101,0,0
+1752960983442,102,Get My Bookings,200,OK,Light Load Test 1-3,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,102,0,0
+1752960983544,103,Get Event Details By ID,200,OK,Light Load Test 1-3,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,103,0,0
+1752960983647,103,Get Seat Map By ID,200,OK,Light Load Test 1-3,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,103,0,0
+1752960983751,192,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-3,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752960985878,365,Login Request,200,OK,Light Load Test 1-4,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,365,0,0
+1752960986244,94,Get All Events,200,OK,Light Load Test 1-4,text,true,,2825,392,1,1,http://localhost:8080/api/events,94,0,0
+1752960986338,98,Get User Info,200,OK,Light Load Test 1-4,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,98,0,0
+1752960986436,102,Get My Bookings,200,OK,Light Load Test 1-4,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,102,0,0
+1752960986538,101,Get Event Details By ID,200,OK,Light Load Test 1-4,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,101,0,0
+1752960986639,101,Get Seat Map By ID,200,OK,Light Load Test 1-4,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,101,0,0
+1752960986740,193,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-4,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,193,0,0
+1752960988879,370,Login Request,200,OK,Light Load Test 1-5,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,370,0,1
+1752960989249,98,Get All Events,200,OK,Light Load Test 1-5,text,true,,2825,392,1,1,http://localhost:8080/api/events,98,0,0
+1752960989347,97,Get User Info,200,OK,Light Load Test 1-5,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752960989444,100,Get My Bookings,200,OK,Light Load Test 1-5,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,100,0,0
+1752960989544,101,Get Event Details By ID,200,OK,Light Load Test 1-5,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,101,0,0
+1752960989645,100,Get Seat Map By ID,200,OK,Light Load Test 1-5,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,100,0,0
+1752960989746,192,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-5,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752960991878,378,Login Request,200,OK,Light Load Test 1-6,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,378,0,2
+1752960992256,99,Get All Events,200,OK,Light Load Test 1-6,text,true,,2825,392,1,1,http://localhost:8080/api/events,99,0,0
+1752960992355,102,Get User Info,200,OK,Light Load Test 1-6,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,102,0,0
+1752960992457,102,Get My Bookings,200,OK,Light Load Test 1-6,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,102,0,0
+1752960992559,98,Get Event Details By ID,200,OK,Light Load Test 1-6,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,98,0,0
+1752960992657,102,Get Seat Map By ID,200,OK,Light Load Test 1-6,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,102,0,0
+1752960992760,197,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-6,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,197,0,0
+1752960994877,379,Login Request,200,OK,Light Load Test 1-7,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,379,0,1
+1752960995257,97,Get All Events,200,OK,Light Load Test 1-7,text,true,,2825,392,1,1,http://localhost:8080/api/events,97,0,0
+1752960995354,97,Get User Info,200,OK,Light Load Test 1-7,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752960995452,94,Get My Bookings,200,OK,Light Load Test 1-7,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,94,0,0
+1752960995547,95,Get Event Details By ID,200,OK,Light Load Test 1-7,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,95,0,0
+1752960995643,98,Get Seat Map By ID,200,OK,Light Load Test 1-7,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,98,0,0
+1752960995742,192,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-7,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,191,0,0
+1752960997877,345,Login Request,200,OK,Light Load Test 1-8,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,345,0,2
+1752960998223,99,Get All Events,200,OK,Light Load Test 1-8,text,true,,2825,392,1,1,http://localhost:8080/api/events,99,0,0
+1752960998323,102,Get User Info,200,OK,Light Load Test 1-8,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,102,0,0
+1752960998425,96,Get My Bookings,200,OK,Light Load Test 1-8,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,96,0,0
+1752960998521,101,Get Event Details By ID,200,OK,Light Load Test 1-8,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,101,0,0
+1752960998622,97,Get Seat Map By ID,200,OK,Light Load Test 1-8,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,97,0,0
+1752960998719,192,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-8,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,192,0,0
+1752961000878,370,Login Request,200,OK,Light Load Test 1-9,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,370,0,2
+1752961001249,94,Get All Events,200,OK,Light Load Test 1-9,text,true,,2825,392,1,1,http://localhost:8080/api/events,94,0,0
+1752961001344,97,Get User Info,200,OK,Light Load Test 1-9,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,97,0,0
+1752961001441,99,Get My Bookings,200,OK,Light Load Test 1-9,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,99,0,0
+1752961001541,100,Get Event Details By ID,200,OK,Light Load Test 1-9,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,100,0,0
+1752961001641,101,Get Seat Map By ID,200,OK,Light Load Test 1-9,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,100,0,0
+1752961001742,196,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-9,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,196,0,0
+1752961003876,358,Login Request,200,OK,Light Load Test 1-10,text,true,,1428,242,1,1,http://localhost:8080/api/auth/signin,358,0,1
+1752961004234,99,Get All Events,200,OK,Light Load Test 1-10,text,true,,2825,392,1,1,http://localhost:8080/api/events,99,0,0
+1752961004333,101,Get User Info,200,OK,Light Load Test 1-10,text,true,,1210,393,1,1,http://localhost:8080/api/auth/me,101,0,0
+1752961004435,99,Get My Bookings,200,OK,Light Load Test 1-10,text,true,,6591,397,1,1,http://localhost:8080/api/bookings/my,99,0,0
+1752961004534,97,Get Event Details By ID,200,OK,Light Load Test 1-10,text,true,,1899,417,1,1,http://localhost:8080/api/events/68742e8626a419aac9543576,97,0,0
+1752961004632,100,Get Seat Map By ID,200,OK,Light Load Test 1-10,text,true,,3862,431,1,1,http://localhost:8080/api/bookings/event/68742e8626a419aac9543576/seats,100,0,0
+1752961004732,196,Get All Events Of A Organizer By Organization ID,200,OK,Light Load Test 1-10,text,true,,3026,427,1,1,http://localhost:8080/api/events/organizer/686446f860321a29820ee994,196,0,0
