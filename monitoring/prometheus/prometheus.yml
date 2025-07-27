@@ -25,15 +25,7 @@ scrape_configs:
     scrape_interval: 10s
     scrape_timeout: 5s
 
-  # EventSpark Frontend (commented out - no metrics endpoint yet)
-  # - job_name: "eventspark-frontend"
-  #   static_configs:
-  #     - targets: ["host.docker.internal:3000"]
-  #   metrics_path: "/metrics"
-  #   scrape_interval: 10s
-  #   scrape_timeout: 5s
 
-  # MongoDB (if you want to monitor database)
   - job_name: "mongodb"
     static_configs:
       - targets: ["host.docker.internal:27017"]
